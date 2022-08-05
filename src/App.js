@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/navBar";
+import MainRoutes from "./mainRoutes";
+import ContactContextProvider from "./contactContext";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <ContactContextProvider>
+            <Navbar/>
+            <MainRoutes/>
+            <hr style={{marginTop:'120px'}}/>
+            <h5 style={{marginLeft:'41%',marginTop:'15px',fontSize:'26px'}}>Thanks for watching my homework</h5>
+        </ContactContextProvider>
     </div>
   );
 }

@@ -1,13 +1,23 @@
-body {
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Inter:wght@200&family=Josefin+Sans:wght@300&family=Josefin+Slab:ital,wght@1,500;1,600&family=Mouse+Memoirs&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+
+  font-family: 'DM Mono', monospace;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Mouse Memoirs', sans-serif;
+background-color: rgba(255,255,255,0.01);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
 }
